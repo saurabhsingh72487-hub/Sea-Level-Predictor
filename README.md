@@ -1,6 +1,16 @@
 # Sea Level Predictor
 
-This project analyzes historical sea level data and predicts future sea level rise through 2050 using linear regression.
+This project is part of the freeCodeCamp Data Analysis with Python certification.
+
+The project analyzes historical sea level data and predicts future sea level rise through the year 2050 using linear regression.
+
+## Features
+
+- Imports and analyzes sea level data using Pandas
+- Creates a scatter plot using Matplotlib
+- Draws a line of best fit for all historical data
+- Draws a second line of best fit using data from 2000 onward
+- Predicts sea level rise through 2050
 
 ## Technologies Used
 
@@ -9,9 +19,13 @@ This project analyzes historical sea level data and predicts future sea level ri
 - Matplotlib
 - SciPy
 
-## Features
+## Project Structure
 
-- Scatter plot visualization
-- Line of best fit for all data
-- Line of best fit for data since 2000
-- Future sea level prediction to 2050
+```text
+sea-level-predictor/
+│
+├── epa-sea-level.csv
+├── sea_level_predictor.py
+├── main.py
+├── test_module.py
+└── README.md
