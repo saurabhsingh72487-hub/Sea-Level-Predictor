@@ -12,7 +12,6 @@ The project analyzes historical sea level data and predicts future sea level ris
 - Predicts sea level rise through 2050
 
 ## Technologies Used
-
 - Python
 - Pandas
 - Matplotlib
